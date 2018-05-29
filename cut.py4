@@ -1,0 +1,9 @@
+m,n,p,q=map(int,raw_input().split())
+if n+p==m:
+	print "2"
+if p+q==m:
+	print "2"
+if n+q==m:
+	print "2"
+if n+p+q==m:
+	print "3"
